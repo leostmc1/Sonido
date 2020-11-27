@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_home"
+        android:iconTint="#fff"
+        android:icon="@drawable/ic_calculator"
+        android:title="Calculadora" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:iconTint="#fff"
+        android:icon="@drawable/ic_volume"
+        android:title="Sonido" />
+    <item
+        android:id="@+id/nav_slideshow"
+        android:icon="@drawable/ic_world_wide_web"
+        android:title="Sitio web" />
+    <item
+        android:id="@+id/nuevo"
+        android:icon="@drawable/ic_apk_file_format"
+        android:title="APK" />
+    <item
+        android:id="@+id/nuevo2"
+        android:icon="@drawable/ic_bar"
+        android:title="IMC" />
+</menu>
